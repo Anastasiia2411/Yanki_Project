@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuysPage matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-jIRcFI jeeOEX"
+  >
+    <h2
+      class="sc-ilhmMj hUjBBK"
+    >
+      Хочу купити:
+    </h2>
+    <button
+      class="sc-pyfCe eeUpHE"
+      data-testid="delete_button"
+    >
+      Здійснити покупку
+    </button>
+  </div>
+  <div
+    class="sc-gYbzsP gUHGsj"
+  >
+    <div
+      class="sc-jSUZER eSphUP"
+    >
+      <img
+        alt="jacket"
+        height="350"
+        src="https://static2.issaplus.com/wa-data/public/photos/96/45/4596/4596.970.jpg"
+      />
+      <div>
+        <svg
+          fill="#FFFFFF"
+          stroke="none"
+          viewBox="0 0 14 13"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.93804 1.15962C8.47954 -0.224381 10.8617 -0.178444 12.3467 1.30925C13.8312 2.79759 13.8823 5.16792 12.5016 6.71402L6.93672 12.2868L1.37314 6.71402C-0.00758263 5.16792 0.0442603 2.79366 1.52801 1.30925C3.01439 -0.176476 5.39194 -0.22635 6.93804 1.15962ZM11.4175 2.23651C10.4332 1.25084 8.84506 1.21081 7.81477 2.13611L6.93869 2.92228L6.06196 2.13676C5.02839 1.21015 3.44357 1.25084 2.45659 2.23782C1.4788 3.21562 1.42958 4.78074 2.33059 5.81497L6.93738 10.429L11.5442 5.81563C12.4458 4.78074 12.3966 3.21759 11.4175 2.23651Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+      <ul
+        class="sc-gKPRtg gKtvfp"
+      >
+        <li>
+          <button
+            class="sc-iBYQkv aWePT"
+          >
+            -
+          </button>
+          кількість: 
+          <button
+            class="sc-iBYQkv aWePT"
+          >
+            +
+          </button>
+        </li>
+        <li>
+          Коричнева куртка
+        </li>
+        <li>
+          3150 грн
+        </li>
+        <li>
+          article:209385
+        </li>
+        <li>
+          <button
+            class="sc-pyfCe eeUpHE"
+            data-testid="delete_button"
+          >
+            Видалити з корзини
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`HomePage matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dIfARi dLPNIy"
+  >
+    <h1
+      class="sc-hHTYSt gCNwtI"
+    >
+      Знижки
+    </h1>
+    <p
+      class="sc-dmctIk iissJX"
+    >
+      -10%
+    </p>
+  </div>
+  <div
+    class="sc-lllmON gVDvSo"
+  >
+    <h3
+      class="sc-cwSeag CnSGK"
+    >
+      Відображення продуктів на сторінці:
+    </h3>
+    <div
+      class="sc-bBABsx loygoy"
+    >
+      <div
+        class="sc-iveFHk icNrly"
+      >
+        Таблиця
+        <svg
+          fill="#000000"
+          height="20px"
+          viewBox="0 0 32 32"
+          width="20px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9,0H1A1,1,0,0,0,0,1V9a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V1A1,1,0,0,0,9,0ZM8,8H2V2H8Z"
+          />
+          <path
+            d="M20,0H12a1,1,0,0,0-1,1V9a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V1A1,1,0,0,0,20,0ZM19,8H13V2h6Z"
+          />
+          <path
+            d="M31,0H23a1,1,0,0,0-1,1V9a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V1A1,1,0,0,0,31,0ZM30,8H24V2h6Z"
+          />
+          <path
+            d="M9,11H1a1,1,0,0,0-1,1v8a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V12A1,1,0,0,0,9,11ZM8,19H2V13H8Z"
+          />
+          <path
+            d="M20,11H12a1,1,0,0,0-1,1v8a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V12A1,1,0,0,0,20,11Zm-1,8H13V13h6Z"
+          />
+          <path
+            d="M31,11H23a1,1,0,0,0-1,1v8a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V12A1,1,0,0,0,31,11Zm-1,8H24V13h6Z"
+          />
+          <path
+            d="M9,22H1a1,1,0,0,0-1,1v8a1,1,0,0,0,1,1H9a1,1,0,0,0,1-1V23A1,1,0,0,0,9,22ZM8,30H2V24H8Z"
+          />
+          <path
+            d="M20,22H12a1,1,0,0,0-1,1v8a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V23A1,1,0,0,0,20,22Zm-1,8H13V24h6Z"
+          />
+          <path
+            d="M31,22H23a1,1,0,0,0-1,1v8a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V23A1,1,0,0,0,31,22Zm-1,8H24V24h6Z"
+          />
+        </svg>
+      </div>
+      <div
+        class="sc-iveFHk icNrly"
+      >
+        Карточки
+        <svg
+          fill="none"
+          height="20px"
+          stroke="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+          version="1.1"
+          viewBox="0 0 16 16"
+          width="20px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            height="11.5"
+            width="8.25"
+            x="1.75"
+            y="2.75"
+          />
+          <path
+            d="m10 3.75 4.25 2-4.25 7.5"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-ftTHYK jAXkDm"
+  >
+    <div
+      class="sc-jSUZER eSphUP"
+    >
+      <img
+        alt="jacket"
+        height="350"
+        src="https://static2.issaplus.com/wa-data/public/photos/96/45/4596/4596.970.jpg"
+      />
+      <div>
+        <svg
+          fill="#FFFFFF"
+          stroke="none"
+          viewBox="0 0 14 13"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.93804 1.15962C8.47954 -0.224381 10.8617 -0.178444 12.3467 1.30925C13.8312 2.79759 13.8823 5.16792 12.5016 6.71402L6.93672 12.2868L1.37314 6.71402C-0.00758263 5.16792 0.0442603 2.79366 1.52801 1.30925C3.01439 -0.176476 5.39194 -0.22635 6.93804 1.15962ZM11.4175 2.23651C10.4332 1.25084 8.84506 1.21081 7.81477 2.13611L6.93869 2.92228L6.06196 2.13676C5.02839 1.21015 3.44357 1.25084 2.45659 2.23782C1.4788 3.21562 1.42958 4.78074 2.33059 5.81497L6.93738 10.429L11.5442 5.81563C12.4458 4.78074 12.3966 3.21759 11.4175 2.23651Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+      <ul
+        class="sc-gKPRtg gKtvfp"
+      >
+        <li>
+          Коричнева куртка
+        </li>
+        <li>
+          3150 грн
+        </li>
+        <li>
+          article:209385
+        </li>
+        <li>
+          <button
+            class="sc-pyfCe eeUpHE"
+            data-testid="delete_button"
+          >
+            Додати в корзину
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

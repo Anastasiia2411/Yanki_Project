@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Біла куртка",
+    "price": "2900 грн",
+    "photo": "https://www.factorystyle.com.ua/wp-content/uploads/2020/09/IMG_3557-scaled.jpg",
+    "article": "209384",
+    "color": "white"
+  },
+  {
+    "name": "Коричнева куртка",
+    "price": "3150 грн",
+    "photo": "https://static2.issaplus.com/wa-data/public/photos/96/45/4596/4596.970.jpg",
+    "article": "209385",
+    "color": "brown"
+  },
+  {
+    "name": "Чорна куртка",
+    "price": "4200 грн",
+    "photo": "https://fason-m.com.ua/upload/ws_resize/iblock/5ba/resize_image-854-1280v2bigdutaya_kurtka_s_zapakhom_i_poyasom_duta_kurtka_z_zapakhom_i_poyasom.jpg",
+    "article": "209386",
+    "color": "black"
+  },
+  {
+    "name": "Зелена куртка",
+    "price": "2900 грн",
+    "photo": "https://zakupki-de.com.ua/uploads/package_img/2021/1237/2112373547_big.jpg",
+    "article": "209387",
+    "color": "green"
+  },
+  {
+    "name": "М'ятна куртка",
+    "price": "3150 грн",
+    "photo": "https://static.staff-clothes.com/media/cache/image_product_mobile_product/image_product/0002/72/09cdbe4f47374f65bd5c2cbc48210c6e.jpeg",
+    "article": "209388",
+    "color": "mint"
+  },
+  {
+    "name": "Синє пальто",
+    "price": "2900 грн",
+    "photo": "http://adminpn.tm-modus.com/images/photo_product/20211011112729298.png",
+    "article": "209389",
+    "color": "blue"
+  },
+  {
+    "name": "Біла шуба",
+    "price": "4200 грн",
+    "photo": "https://mehavelure.com.ua/wp-content/uploads/2017/12/mehavelure-8930.jpg",
+    "article": "209390",
+    "color": "white"
+  },
+  {
+    "name": "Синя парка",
+    "price": "2900 грн",
+    "photo": "https://unimarket.com.ua/wp-content/uploads/2019/12/DH-7848.jpg ",
+    "article": "209391",
+    "color": "blue"
+  }
+]
