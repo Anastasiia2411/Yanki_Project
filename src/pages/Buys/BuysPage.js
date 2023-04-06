@@ -18,7 +18,7 @@ import {
 } from "../../store/actions";
 import { BuysForm } from "./BuysForm";
 import { ViewContext } from "../../components/Layout/Layout";
-import { Table, Th, Tr } from "../../components/Products/Products.style";
+import { Table, Th, Tr,  TableWrapper } from "../../components/Products/Products.style";
 
 const color = "#E0BEA2";
 
@@ -78,6 +78,7 @@ export function BuysPage() {
             </BuyButtonContainer>
             {purchases.length > 0 ? (
                 view === "list" ? (
+                    <TableWrapper>
                     <Table>
                         <tbody>
                         <Tr>
@@ -107,6 +108,7 @@ export function BuysPage() {
                         })}
                         </tbody>
                     </Table>
+                        </TableWrapper>
                 ) : (
                     <BuysParagraphWrapper view={view}>
                         {purchases.map((product) => {

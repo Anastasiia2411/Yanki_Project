@@ -12,7 +12,7 @@ import {
     addProductToBasketFromLikedProductsConfirmModal
 } from "../../store/actions";
 import { ViewContext } from "../../components/Layout/Layout";
-import { Table, Th, Tr } from "../../components/Products/Products.style";
+import { Table, Th, Tr, TableWrapper } from "../../components/Products/Products.style";
 import { BuysParagraph, BuysParagraphWrapper } from "../Buys/BuysPage.style";
 
 const color = "#E0BEA2";
@@ -51,6 +51,7 @@ export function LikedPage() {
             <LikedHeader>Вподобане:</LikedHeader>
             {likedProducts.length > 0 ? (
                 view === "list" ? (
+                <TableWrapper>
                     <Table>
                         <tbody>
                         <Tr>
@@ -80,6 +81,7 @@ export function LikedPage() {
                         })}
                         </tbody>
                     </Table>
+                </TableWrapper>
                 ) : (
                     <ParagraphWrapper view={view}>
                         {likedProducts.length > 0 ? (

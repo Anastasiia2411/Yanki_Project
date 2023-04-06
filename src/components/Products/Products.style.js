@@ -58,8 +58,9 @@ export const Th = styled.th`
 export const Td = styled.th`
   white-space: pre-wrap;
   overflow-wrap: break-word;
-  line-height: 20px;
+  line-height: 25px;
   word-break: break-word;
+  word-wrap: break-word;
   border: 1px solid black;
   position: relative;
   padding: 0;
@@ -177,6 +178,7 @@ export const CountButton = styled.button`
   margin-left: 10px;
   margin-right: 10px;
   transition: 0.7s;
+  margin: 14px 5px ;
 
   &:hover {
     transition: 0.7s;
@@ -195,6 +197,7 @@ export const ProductsWrapper = styled.div`
     grid-template-columns: 1fr ;
     margin-bottom: 20px;
   };
+  
   @media screen and (max-width: 480px) {
     grid-template-columns: 1fr ;
     margin-bottom: 20px;
@@ -208,6 +211,7 @@ export const ProductsWrapper = styled.div`
     grid-template-columns: 1fr 1fr ;
     margin-bottom: 20px;
   };
+  
   @media (min-width: 1024px) and (max-width: 1279px) {
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 0px;
