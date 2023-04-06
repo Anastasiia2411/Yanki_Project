@@ -8,11 +8,21 @@ export const LikedHeader = styled.h2`
   line-height: 23px;
   color: #E0BEA2;
   text-align: start;
+  @media screen and (max-width: 320px) {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
 `;
 
 export const LikedParagraph = styled.p`
   position: absolute;
-  top:40%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Raleway', sans-serif;
@@ -39,6 +49,32 @@ export const ParagraphWrapper = styled.div`
   padding-top: 20px;
   padding-left: 10px;
   gap:30px;
+      @media screen and (max-width: 320px) {
+  grid-template-columns: 1fr;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  }
+    @media screen and (max-width: 480px) {
+  grid-template-columns: 1fr;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  justify-items: center;
+  align-items: center;
+  }
+    @media (min-width: 768px) and (max-width: 1023px){
+     grid-template-columns: 1fr 1fr;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  justify-items: center;
+  align-items: center;
+  }
+        @media (min-width: 1024px) and (max-width: 1279px){
+     grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  justify-items: center;
+  align-items: start;
+  }
   `}
-  
+
 `;

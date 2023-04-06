@@ -4,6 +4,14 @@ export const FooterWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 60px;
+  @media screen and (max-width: 320px) {
+    grid-template-columns: 1fr ;
+    margin-bottom: 10px;
+  };
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+  }
 `;
 
 export const FooterElement = styled.div`
@@ -20,7 +28,7 @@ export const FooterElement = styled.div`
     gap: 10px;
 
     & > li {
-      align-self: center;
+      align-self: start;
     }
   }
 `;
@@ -47,6 +55,10 @@ export const FooterElementLink = styled.a`
   &:hover {
     transition: 0.7s;
     font-size: 18px;
+  }
+
+  @media screen and (max-width: 480px) {
+    text-align: start;
   }
 
 `;

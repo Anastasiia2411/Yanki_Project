@@ -10,24 +10,53 @@ export const HeaderList = styled.ul`
   & > li {
     flex-grow: 1;
   }
+
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 export const HeaderListLink = styled(Link)`
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
+
   cursor: pointer;
   transition: 0.7s;
   text-decoration: none;
   color: #E0BEA2;
 
-  &:hover {
-    color: #E0BEA2;
-    font-size: 22px;
-    transition: 0.7s;
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: 18px;
+
+    &:hover {
+      color: #E0BEA2;
+      font-size: 18px;
+      transition: 0.7s;
+    }
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+    line-height: 18px;
+
+    &:hover {
+      color: #E0BEA2;
+      font-size: 18px;
+      transition: 0.7s;
+    }
+  }
+}
+
+&:hover {
+  color: #E0BEA2;
+  font-size: 22px;
+  transition: 0.7s;
+}
 `;
 
 export const HeaderIconList = styled.ul`
@@ -45,12 +74,46 @@ export const HeaderIconList = styled.ul`
       position: relative;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    width: 130px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 130px;
+  }
+
 `;
 
 export const HeaderElementWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: 18px;
+    & > ul {
+      max-width: 80px;
+    }
+
+    & > svg {
+      width: 80px;
+      height: 70px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+    line-height: 18px;
+    & > ul {
+      max-width: 100px;
+    }
+
+    & > svg {
+      width: 120px;
+      height: 70px;
+    }
+  }
+}
 `;
 
 export const ImageWrapper = styled.div`
@@ -74,6 +137,16 @@ export const ImageWrapperText = styled.h1`
   line-height: 21px;
   color: white;
   padding-right: 70px;
+  @media screen and (max-width: 320px) {
+    font-size: 36px;
+    line-height: 21px;
+    padding-right: 10px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 36px;
+    line-height: 21px;
+    padding-right: 10px;
+  }
 `;
 
 export const ImageWrapperParagraph = styled.p`
@@ -86,6 +159,18 @@ export const ImageWrapperParagraph = styled.p`
   color: white;
   margin-top: 40px;
   padding-right: 90px;
+  @media screen and (max-width: 320px) {
+    margin-top: 10px;
+    font-size: 36px;
+    line-height: 21px;
+    padding-right: 20px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-top: 10px;
+    font-size: 36px;
+    line-height: 21px;
+    padding-right: 20px;
+  }
 `;
 
 export const HeaderIcon = styled.svg`
@@ -176,4 +261,7 @@ export const SwitchWrapper = styled.div`
   justify-content: center;
   align-items: start;
   flex-direction: column;
+  @media screen and (max-width: 480px) {
+    align-items: center;
+  }
 `;

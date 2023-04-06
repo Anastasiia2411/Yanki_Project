@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector, shallowEqual } from "react-redux";
 
-import { ProductsWrapper, Th, Table } from "./Products.style.js";
+import { ProductsWrapper, Th, Table, TableWrapper } from "./Products.style.js";
 import { ProductElement } from "./Product";
 import { addToLikedProducts, addProductToPurchases } from "../../store/actions";
 
@@ -24,6 +24,7 @@ export function Products({ buttonText, onProductBuyButtonClick, view }) {
 
     return (
         view === "list" ? (
+                <TableWrapper>
             <Table>
                 <tbody>
                 <tr>
@@ -49,7 +50,7 @@ export function Products({ buttonText, onProductBuyButtonClick, view }) {
                     );
                 })}
                 </tbody>
-            </Table>) : (
+            </Table></TableWrapper>) : (
             <ProductsWrapper view={view}>
                 {allProducts.map((product) => {
                     return (

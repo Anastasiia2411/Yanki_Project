@@ -5,12 +5,36 @@ export const TdCount = styled.td`
   width: 200px;
 `;
 
-export const Table = styled.table`
-  border-collapse: collapse;
-  width: 100%;
+export const TableWrapper = styled.div`
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 100%;
+
+  @media screen and (max-width: 320px) {
+    overflow-x: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  @media screen and (max-width: 480px) {
+    overflow-x: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+`;
+
+export const Table = styled.table`
+  margin: 0 auto;
+  border-collapse: collapse;
+  max-width: 100%;
   word-wrap: break-word;
+
+  @media screen and (max-width: 320px) {
+    min-width: 500px;
+  }
+  @media screen and (max-width: 480px) {
+    min-width: 500px;
+  }
 `;
 
 export const Th = styled.th`
@@ -86,6 +110,7 @@ export const Product = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 260px;
+  width: 260px;
   justify-content: start;
   max-height: 600px;
   transition: 0.7s;
@@ -166,4 +191,28 @@ export const ProductsWrapper = styled.div`
   gap: 40px;
   margin-bottom: 70px;
   margin-top: 30px;
+  @media screen and (max-width: 320px) {
+    grid-template-columns: 1fr ;
+    margin-bottom: 20px;
+  };
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr ;
+    margin-bottom: 20px;
+    align-content: center;
+    justify-items: center;
+  };
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr ;
+    margin-bottom: 20px;
+  };
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    justify-items: center;
+    align-items: start;
+  }
 `;

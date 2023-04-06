@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Formik, ErrorMessage, Field } from "formik";
+import { Formik, ErrorMessage} from "formik";
 import * as Yup from "yup";
 
 import {
@@ -14,6 +14,7 @@ import {
     TextError,
     SubmitButton,
     PatternForm,
+    FieldStyle
 } from "./Form.style";
 import {
     CloseFormModal,
@@ -108,7 +109,7 @@ export function BuysForm() {
                                         <ErrorMessage name="address" component={TextError}/>
 
                                         <Label htmlFor="tel">Мобільний телефон</Label>
-                                        <Field name="tel">
+                                        <FieldStyle name="tel">
                                             {({ field }) => (
                                                 <PatternForm
                                                     {...field}
@@ -122,7 +123,7 @@ export function BuysForm() {
                                                     }}
                                                 />
                                             )}
-                                        </Field>
+                                        </FieldStyle>
                                         <ErrorMessage name="tel" component={TextError}/>
 
                                         <SubmitButton type="submit"

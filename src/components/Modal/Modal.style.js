@@ -11,6 +11,12 @@ export const ModalWrapper = styled.div`
   transform: translate(-50%, -50%);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   overflow: hidden;
+  @media screen and (max-width: 320px) {
+    overflow: scroll;
+  }
+  @media screen and (max-width: 480px) {
+    overflow: scroll;
+  }
 `;
 
 export const ModalContainer = styled.div`
@@ -27,6 +33,10 @@ export const ModalHeader = styled.h2`
   margin-top: 20px;
   color: white;
   margin-left: 20px;
+  @media screen and (max-width: 480px) {
+    font-size: 24px;
+    margin-left:0px;
+  }
 `;
 
 export const DeleteButton = styled.button`

@@ -1,16 +1,26 @@
 import styled from "styled-components";
 import { Form, Field } from "formik";
-import  { PatternFormat  } from "react-number-format";
+import { PatternFormat } from "react-number-format";
 
-export const PatternForm = styled(PatternFormat )`
+export const FieldStyle = styled(Field)`
+  @media screen and (max-width: 320px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 480px) {
+    width: 90%;
+  }
+`;
+
+export const PatternForm = styled(PatternFormat)`
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 24px;
-  width: 400px;
   height: 50px;
   padding: 0 15px;
   border: ${props => props.border};
+  @media screen and (max-width: 320px) {
+  }
 `;
 
 export const FormContainer = styled.div`
@@ -24,7 +34,7 @@ export const FormContainer = styled.div`
   background-color: rgba(0, 0, 0, 0.2);
 `;
 
-export const SubmitButton=styled.button`
+export const SubmitButton = styled.button`
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -46,7 +56,7 @@ export const SubmitButton=styled.button`
     transition: 0.7s;
     box-shadow: 0 20px 16px -16px rgba(0, 0, 0, 0.6);
   }
-`
+`;
 
 export const TextError = styled.p`
   font-family: 'Raleway', sans-serif;
@@ -56,7 +66,7 @@ export const TextError = styled.p`
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
-`
+`;
 
 export const FormBackground = styled.div`
   position: absolute;
@@ -65,7 +75,6 @@ export const FormBackground = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  width: 500px;
   height: 700px;
   max-width: 400px;
   margin-left: auto;
@@ -74,6 +83,12 @@ export const FormBackground = styled.div`
   padding-right: 30px;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 320px) {
+    max-width: 100%;
+  }
+  @media screen and (max-width: 480px) {
+    max-width: 100%;
+  }
 `;
 
 export const Input = styled(Field)`
@@ -85,6 +100,14 @@ export const Input = styled(Field)`
   height: 50px;
   padding: 0 15px;
   border: ${props => props.border};
+  @media screen and (max-width: 320px) {
+    width: 97%;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 97%;
+    font-size: 18px;
+  }
 `;
 
 export const InputWrapper = styled(Form)`
@@ -108,6 +131,12 @@ export const FormHeader = styled.h2`
   color: #E0BEA2;
   text-align: center;
   margin: 0px auto;
+  @media screen and (max-width: 320px) {
+    font-size: 26px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 26px;
+  }
 `;
 
 export const Label = styled.label`
@@ -121,5 +150,11 @@ export const CloseButtonWrapper = styled.div`
   width: 10px;
   align-self: end;
   margin-top: 20px;
+  @media screen and (max-width: 320px) {
+    margin-right: 10px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-right: 10px;
+  }
 `;
 
